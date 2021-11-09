@@ -342,6 +342,25 @@ h2{
     margin: 15px;
 }
 
+
+.formulario{
+    font-size: 1.5rem;
+    color: #0E2861;
+    background-color: #FFFFFF;
+    word-spacing: 2px;
+    line-height: 2rem; 
+    margin: 30px;
+    padding: 20px 20px 20px 20px;
+}
+
+.form-group{
+    margin: 5px;
+}
+
+.form-control{
+    width: 400px;
+}
+
 .footer{
     margin: 50px 20px 10px 20px ;
     background-color: #FFFFFF;
@@ -371,10 +390,10 @@ h2{
     
     .encabezado{
         background-color: #FFFFFF ;
-        position: fixed;
-        top: 0;
+        position:relative;
         width: 100%;
         display: flex;
+        padding: 0;
     }
     
     .rj45{
@@ -421,6 +440,7 @@ h2{
         display: flex;
         flex-direction: column;
         align-content: center;
+        font-size: 1rem;
     }
 
     .ubicacion{
@@ -429,12 +449,8 @@ h2{
     }
 
     #cuerpo{
-        padding-top: 110px;
+        padding-top: 0px;
     } 
-
-    .servicios{
-        padding-top: 45px;
-    }
 
     .carousel-caption {
         background-color:  rgba(14,40,97, 0.5);
@@ -478,27 +494,38 @@ h2{
         margin:40px 20px 40px 15px;
         padding: 10px 10px 10px 10px;
     } 
+
+    .wrapper{
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        width: 70%;
+        margin-left: 15%;
+    }
+    .box {
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        width: 70%;
+        margin-left: 15%;
+    }
+
+    .obras {
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        width: 70%;
+        margin-left: 15%;
+    }
+
+    .form-control{
+        width: 100%;
+    }
+
 }
 
 
 
-.formulario{
-    font-size: 1.5rem;
-    color: #0E2861;
-    background-color: #FFFFFF;
-    word-spacing: 2px;
-    line-height: 2rem; 
-    margin: 30px;
-    padding: 20px 20px 20px 20px;
-}
-
-.form-group{
-    margin: 5px;
-}
-
-.form-control{
-    width: 400px;
-}
 
 
 
