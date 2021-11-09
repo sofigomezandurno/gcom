@@ -1,0 +1,21 @@
+%flexbox{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.imagenes{
+    @extend %flexbox;
+}
+
+.imagenServicios{
+    @extend %flexbox;
+}
+
+.imagenMarca{
+    @extend %flexbox;
+}
+
+.articulos{
+    @extend %flexbox;
+}
