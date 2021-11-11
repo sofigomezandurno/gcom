@@ -345,8 +345,8 @@ h2{
 
 .formulario{
     font-size: 1.5rem;
-    color: #0E2861;
-    background-color: #FFFFFF;
+    background-image: linear-gradient(to right, #0E2861, #1749a5, #2E55C9);
+    color: #FFFFFF;
     word-spacing: 2px;
     line-height: 2rem; 
     margin: 30px;
