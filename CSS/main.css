@@ -112,34 +112,6 @@ a:active{
     padding: 20px;
 } */
 
-.row{
-    font-size: 1.2rem;
-    word-spacing: 2px;
-    line-height: 2rem; 
-    text-indent: 1rem;
-    padding-right: 10px;
-    padding-left: 10px;
-}
-
-.container{
-    font-size: 1.2rem;
-    word-spacing: 2px;
-    line-height: 2rem; 
-    padding-bottom: 50px;
-
-
-}
-
-.container__texto{
-    color: #FFFFFF;
-    background-image: linear-gradient(to right, #0E2861, #1749a5, #2E55C9);
-
-}
-.container__encabezados{
-    color:#0E2861;
-    background-color: #FFFFFF;
-    text-align: center;
-}
 
 
 /* .imagenes{
@@ -206,6 +178,33 @@ h2{
 .articulos__video--Camaras{
     padding: 20px 20px 30px 50px;
 } */
+
+.row{
+    font-size: 1.2rem;
+    word-spacing: 2px;
+    line-height: 2rem; 
+    text-indent: 1rem;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+.container{
+    font-size: 1.2rem;
+    word-spacing: 2px;
+    line-height: 2rem; 
+    padding-bottom: 50px;
+}
+
+.container__texto{
+    color: #FFFFFF;
+    background-image: linear-gradient(to right, #0E2861, #1749a5, #2E55C9);
+
+}
+.container__encabezados{
+    color:#0E2861;
+    background-color: #FFFFFF;
+    text-align: center;
+}
 
 .wrapper {
     display: grid;
@@ -367,7 +366,7 @@ h2{
     text-align: right;
 }
 
-@media screen and (min-width: 600px) and (max-width: 1024px) {
+/* @media screen and (min-width: 600px) and (max-width: 1024px) {
     .imagenes{
         display: grid;
         grid-column: auto;
@@ -521,7 +520,7 @@ h2{
         width: 100%;
     }
 
-}
+} */
 
 
 
