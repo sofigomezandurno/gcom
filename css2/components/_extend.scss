@@ -1,0 +1,17 @@
+%flexbox{
+    display: flex;
+    width: 100%;
+}
+
+%flexboxImagen{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    align-content: center;
+    text-align: center;
+}
+
+%flexboxServicios{
+    display: flex;
+    justify-content: space-around
+}

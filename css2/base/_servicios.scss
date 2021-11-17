@@ -1,0 +1,86 @@
+.servicios{
+    font-size: map-get($font-size , tamaño1);
+    color: $bgColor;
+    background-image: $biColor;
+    word-spacing: 2px;
+    line-height: 2rem; 
+    text-indent: 2rem;
+    margin: 15px;
+    padding-top: 1px;
+}
+
+.marcas{
+    font-size: map-get($font-size , tamaño1);
+    color: $bgColor;
+    background-image: $biColor;
+    word-spacing: 2px;
+    line-height: 2rem; 
+    text-indent: 2rem;
+    margin: 15px;
+}
+
+.wrapper {
+    display: grid;
+    grid-template-columns: 180px 180px 180px;
+    grid-gap: 115px;
+    background-color: $bgColor;
+    color: $colorSecond;
+    justify-content: center;
+    
+}
+
+.imagenEquipo{
+    background-image: $biColor;;
+    color: $bgColor;
+    width: 100%;
+    margin: 60px 0 60px 0;
+    
+}
+
+.carousel-caption {
+    background-color: $linkAColor;
+    padding: 15px;
+    margin: 28px;
+}
+.carousel-inner img {
+    width: 50%;
+    margin: auto;   
+}
+
+.serviciosI{
+    padding-bottom: 380px;
+
+}
+.marcasI{ 
+    background-color: $linkAColor;
+    margin-right: 43%;
+    margin-left: 43%;
+    margin-bottom: 0;
+}
+
+.carousel-control-prev{
+    background-color:  $linkColor__Second;
+    margin: 20px;
+    padding: 20px;
+
+}
+
+.carousel-control-next{
+    background-color:  $linkColor__Second;
+    margin: 20px;
+    padding: 20px;
+}
+
+.imagenServicios{
+    @extend %flexboxServicios;
+    color: $bgColor;
+    width: 100%;
+    
+}
+
+.imagenMarcas{
+    @extend %flexboxServicios;
+    color: $bgColor;
+    width: 40%;
+    
+}
