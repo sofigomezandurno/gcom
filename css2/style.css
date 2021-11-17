@@ -240,6 +240,28 @@ a:active {
   .form-control {
     width: 100%; } }
 
+.box {
+  background-image: linear-gradient(to right, #0E2861, #1749a5, #2E55C9);
+  color: #FFFFFF;
+  border-radius: 50%;
+  padding: 1px;
+  font-size: 150%; }
+
+.obras {
+  background-image: linear-gradient(to right, #0E2861, #1749a5, #2E55C9);
+  color: #FFFFFF;
+  padding: 5px;
+  font-size: 150%; }
+
+.clientesTrabajos {
+  background-image: linear-gradient(to right, #0E2861, #1749a5, #2E55C9);
+  color: #FFFFFF;
+  width: 100%;
+  margin: 60px 0 60px 0; }
+
+.clientesImagen {
+  border-radius: 50%; }
+
 .row {
   font-size: 1.2rem;
   word-spacing: 4px;
@@ -262,6 +284,33 @@ a:active {
   color: #0E2861;
   background-color: #FFFFFF;
   text-align: center; }
+
+.contacto {
+  display: flex;
+  justify-content: space-between;
+  font-size: 1.5rem;
+  color: #FFFFFF;
+  background-image: linear-gradient(to right, #0E2861, #1749a5, #2E55C9);
+  word-spacing: 2.5px;
+  line-height: 3rem;
+  text-indent: 2rem;
+  margin: 35px;
+  padding: 20px 20px 20px 20px; }
+
+.formulario {
+  font-size: 1.5rem;
+  color: #0E2861;
+  background-color: #FFFFFF;
+  word-spacing: 2px;
+  line-height: 2rem;
+  margin: 30px;
+  padding: 20px 20px 20px 20px; }
+
+.form-group {
+  margin: 5px; }
+
+.form-control {
+  width: 400px; }
 
 .servicios {
   font-size: 1rem;

@@ -276,7 +276,7 @@ h2{
     
 } */
 
-.box {
+/* .box {
     background-image: linear-gradient(to right, #0E2861, #1749a5, #2E55C9);
     color: #FFFFFF;
     border-radius: 50%;
@@ -304,21 +304,9 @@ h2{
 .clientesImagen{
     border-radius: 50%;
 }
+ */
 
-.contacto{
-    display: flex;
-    justify-content: space-between;
-    font-size: 1.5rem;
-    color: #FFFFFF;
-    background-image: linear-gradient(to right, #0E2861, #1749a5, #2E55C9);
-    word-spacing: 2.5px;
-    line-height: 3rem; 
-    text-indent: 2rem;
-    margin: 35px;
-    padding: 20px 20px 20px 20px;
-}
-
-.servicios{
+/* .servicios{
     font-size: 1rem;
     color: #FFFFFF;
     background-image: linear-gradient(to right, #0E2861, #1749a5, #2E55C9);
@@ -337,8 +325,20 @@ h2{
     line-height: 2rem; 
     text-indent: 2rem;
     margin: 15px;
-}
+} */
 
+/* .contacto{
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.5rem;
+    color: #FFFFFF;
+    background-image: linear-gradient(to right, #0E2861, #1749a5, #2E55C9);
+    word-spacing: 2.5px;
+    line-height: 3rem; 
+    text-indent: 2rem;
+    margin: 35px;
+    padding: 20px 20px 20px 20px;
+}
 
 .formulario{
     font-size: 1.5rem;
@@ -356,7 +356,7 @@ h2{
 
 .form-control{
     width: 400px;
-}
+} */
 
 /* .footer{
     margin: 50px 20px 10px 20px ;
