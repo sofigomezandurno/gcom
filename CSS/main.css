@@ -179,7 +179,7 @@ h2{
     padding: 20px 20px 30px 50px;
 } */
 
-.row{
+/* .row{
     font-size: 1.2rem;
     word-spacing: 2px;
     line-height: 2rem; 
@@ -204,7 +204,7 @@ h2{
     color:#0E2861;
     background-color: #FFFFFF;
     text-align: center;
-}
+} */
 
 .wrapper {
     display: grid;

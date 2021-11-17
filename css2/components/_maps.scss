@@ -2,25 +2,4 @@ $font-size: (
     tamaño1: 1rem,
     tamaño2: 1.4rem,
     tamaño3: 1.8rem,
-);
-
-.footer{
-    margin: 50px 20px 10px 20px ;
-    background-color: #FFFFFF;
-    text-align: right;
-
-.footer__ul{
-    list-style: none;
-    padding-top: 18px;
-
-    li{
-    list-style: none;
-    display: inline-block;
-    border: none;
-    background-color: $bgColor;
-    padding: 4px 8px 4px 8px;
-    font-size: map-get($font-size , tamaño2 );
-    font-weight: bold;
-}
-}
-}
+    tamaño4: 1.2rem,)

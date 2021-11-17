@@ -1,0 +1,26 @@
+.row{
+    font-size: map-get($font-size , tamaño4 );
+    word-spacing: 4px;
+    line-height: 2rem; 
+    text-indent: 1rem;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+.container{
+    font-size: map-get($font-size , tamaño4);
+    word-spacing: 2px;
+    line-height: 2rem; 
+    padding-bottom: 50px;
+}
+
+.container__texto{
+    color: $bgColor;
+    background-image: $biColor;
+
+}
+.container__encabezados{
+    color:$colorSecond;
+    background-color: $bgColor;
+    text-align: center;
+}
