@@ -206,7 +206,7 @@ h2{
     text-align: center;
 } */
 
-.wrapper {
+/* .wrapper {
     display: grid;
     grid-template-columns: 180px 180px 180px;
     grid-gap: 115px;
@@ -231,10 +231,8 @@ h2{
 }
 .carousel-inner img {
     width: 50%;
-    margin: auto;
-    
+    margin: auto;   
 }
-
 
 .serviciosI{
     padding-bottom: 380px;
@@ -276,7 +274,7 @@ h2{
     color: #FFFFFF;
     width: 40%;
     
-}
+} */
 
 .box {
     background-image: linear-gradient(to right, #0E2861, #1749a5, #2E55C9);
@@ -360,11 +358,11 @@ h2{
     width: 400px;
 }
 
-.footer{
+/* .footer{
     margin: 50px 20px 10px 20px ;
     background-color: #FFFFFF;
     text-align: right;
-}
+} */
 
 /* @media screen and (min-width: 600px) and (max-width: 1024px) {
     .imagenes{
