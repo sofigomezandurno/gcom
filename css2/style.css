@@ -38,8 +38,7 @@ body {
   height: 99px; }
 
 .encabezado__logo__menu__ul {
-  list-style: none;
-  padding-top: 18px; }
+  list-style: none; }
   .encabezado__logo__menu__ul li {
     list-style: none;
     display: inline-block;
@@ -138,108 +137,6 @@ a:active {
       font-size: 1.4rem;
       font-weight: bold; }
 
-@media screen and (min-width: 600px) and (max-width: 1024px) {
-  .imagenes {
-    display: grid;
-    grid-column: auto;
-    justify-content: center; }
-  .articulos {
-    display: grid;
-    grid-column: auto;
-    justify-content: center; }
-  #cuerpo {
-    padding-top: 110px; } }
-
-@media screen and (max-width: 600px) {
-  .encabezado {
-    background-color: #FFFFFF;
-    position: relative;
-    width: 100%;
-    display: flex;
-    padding: 0; }
-  .rj45 {
-    display: flex;
-    width: 100px;
-    height: 80px; }
-  .imagenes {
-    display: flex;
-    flex-direction: column;
-    justify-content: center; }
-  .presentacion__imagen__telecomunicaciones {
-    float: right;
-    width: 70%;
-    margin: 0px; }
-  .articulos {
-    display: flex;
-    flex-direction: column;
-    justify-content: center; }
-  .articulos__video--Telecomunicaciones {
-    padding: 1px 10px 5px 1px;
-    justify-content: center;
-    align-content: center;
-    margin-left: 20px; }
-  .articulos__video--Camaras {
-    padding: 1px 15px 5px 1px;
-    justify-content: center;
-    align-content: center;
-    margin-left: 20px; }
-  .contacto {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    font-size: 1rem; }
-  .ubicacion {
-    width: 80%; }
-  #cuerpo {
-    padding-top: 0px; }
-  .carousel-caption {
-    background-color: rgba(14, 40, 97, 0.5);
-    padding: 20px;
-    margin: 20px 0 0 0;
-    font-size: 0.7rem;
-    justify-content: space-around; }
-  .h3 {
-    font-size: 0.9rem; }
-  .carousel-inner img {
-    width: 50%;
-    margin: auto; }
-  .serviciosI {
-    padding-bottom: 30px; }
-  .marcasI {
-    background-color: rgba(14, 40, 97, 0.5);
-    margin-right: 43%;
-    margin-left: 43%;
-    margin-bottom: -30px;
-    margin-top: 15px; }
-  .carousel-control-prev {
-    background-color: rgba(14, 40, 97, 0.5);
-    margin: 40px 20px 40px 15px;
-    padding: 10px 10px 10px 10px; }
-  .carousel-control-next {
-    background-color: rgba(14, 40, 97, 0.5);
-    margin: 40px 20px 40px 15px;
-    padding: 10px 10px 10px 10px; }
-  .wrapper {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    width: 70%;
-    margin-left: 15%; }
-  .box {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    width: 70%;
-    margin-left: 15%; }
-  .obras {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    width: 70%;
-    margin-left: 15%; }
-  .form-control {
-    width: 100%; } }
-
 .box {
   background-image: linear-gradient(to right, #0E2861, #1749a5, #2E55C9);
   color: #FFFFFF;
@@ -299,8 +196,8 @@ a:active {
 
 .formulario {
   font-size: 1.5rem;
-  color: #0E2861;
-  background-color: #FFFFFF;
+  color: #FFFFFF;
+  background-image: linear-gradient(to right, #0E2861, #1749a5, #2E55C9);
   word-spacing: 2px;
   line-height: 2rem;
   margin: 30px;
@@ -380,3 +277,179 @@ a:active {
 .imagenMarcas {
   color: #FFFFFF;
   width: 40%; }
+
+@media screen and (min-width: 1024px) {
+  .respmenu {
+    color: #FFFFFF; }
+  .respmenu input[type="checkbox"] {
+    display: none; } }
+
+@media screen and (min-width: 600px) and (max-width: 1024px) {
+  .imagenes {
+    display: grid;
+    grid-column: auto;
+    justify-content: center; }
+  .articulos {
+    display: grid;
+    grid-column: auto;
+    justify-content: center; }
+  #cuerpo {
+    padding-top: 110px; } }
+
+@media screen and (max-width: 600px) {
+  .encabezado {
+    background-color: #FFFFFF;
+    position: relative;
+    width: 100%;
+    display: flex;
+    padding: 0; }
+  .rj45 {
+    display: flex;
+    width: 100px;
+    height: 80px; }
+  .encabezado__logo__titulo {
+    font-size: 40px; }
+  .imagenes {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; }
+  .presentacion__imagen__telecomunicaciones {
+    float: right;
+    width: 70%;
+    margin: 0px; }
+  .articulos {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; }
+  .articulos__video--Telecomunicaciones {
+    padding: 1px 10px 5px 1px;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    margin-left: 20px; }
+  .articulos__video--Camaras {
+    padding: 1px 15px 5px 1px;
+    width: 70%;
+    justify-content: center;
+    align-content: center;
+    margin-left: 20px; }
+  #cuerpo {
+    padding-top: 0px; }
+  .carousel-caption {
+    background-color: rgba(14, 40, 97, 0.5);
+    padding: 20px;
+    margin: 20px 0 0 0;
+    font-size: 0.7rem;
+    justify-content: space-around; }
+  .h3 {
+    font-size: 0.9rem; }
+  .carousel-inner img {
+    width: 50%;
+    margin: auto; }
+  .serviciosI {
+    padding-bottom: 30px; }
+  .marcasI {
+    background-color: rgba(14, 40, 97, 0.5);
+    margin-right: 43%;
+    margin-left: 43%;
+    margin-bottom: -30px;
+    margin-top: 15px; }
+  .carousel-control-prev {
+    background-color: rgba(14, 40, 97, 0.5);
+    margin: 40px 20px 40px 15px;
+    padding: 10px 10px 10px 10px; }
+  .carousel-control-next {
+    background-color: rgba(14, 40, 97, 0.5);
+    margin: 40px 20px 40px 15px;
+    padding: 10px 10px 10px 10px; }
+  .wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 70%;
+    margin-left: 15%; }
+  .box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 70%;
+    margin-left: 15%; }
+  .obras {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 70%;
+    margin-left: 15%; }
+  .contacto {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 1rem;
+    word-spacing: 1.8px;
+    line-height: 2rem;
+    text-indent: 1.5rem; }
+  .e-mail {
+    font-size: 0.95rem; }
+  .ubicacion {
+    width: 80%; }
+  .formulario {
+    font-size: 1rem;
+    word-spacing: 1.2px;
+    line-height: 2rem;
+    margin: 15px;
+    padding: 15px 15px 15px 15px; }
+  .form-group {
+    margin: 2px; }
+  .form-control {
+    width: 290px; }
+  .footer {
+    display: block;
+    margin: 20px 20px 10px 20px;
+    background-color: #FFFFFF;
+    text-align: right; }
+    .footer .footer__ul {
+      list-style: none;
+      padding-top: 18px; }
+      .footer .footer__ul li {
+        list-style: none;
+        display: inline-block;
+        border: none;
+        background-color: #FFFFFF;
+        padding: 4px 8px 4px 8px;
+        font-size: 1.4rem;
+        font-weight: bold; }
+  .respmenu a {
+    color: linear-gradient(to right, #0E2861, #1749a5, #2E55C9);
+    display: flex;
+    padding: 10px 20px;
+    border-bottom: 2px solid linear-gradient(to right, #0E2861, #1749a5, #2E55C9);
+    max-width: 150px;
+    background: #FFFFFF; }
+  .respmenu input[type="checkbox"], .respmenu .fa-bars, .respmenu .fa-times {
+    position: absolute;
+    margin: 5px;
+    padding: 5px;
+    right: 5px;
+    top: 5px;
+    left: 120px;
+    width: 48px;
+    height: 48px; }
+  .respmenu .fa-bars, .respmenu .fa-times {
+    font-size: 48px;
+    pointer-events: none; }
+  .respmenu input[type="checkbox"] {
+    opacity: 0; }
+  .respmenu {
+    position: relative;
+    justify-content: right;
+    min-height: 38px; }
+  .respmenu nav {
+    display: none; }
+  .respmenu input:checked ~ nav {
+    display: block; }
+  .respmenu input:checked ~ .fa-bars {
+    display: none; }
+  .respmenu input:not(:checked) ~ .fa-times {
+    display: none; } }
