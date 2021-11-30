@@ -1,3 +1,14 @@
+@media screen and (min-width: 1024px){
+
+    .respmenu{
+        color: $bgColor;
+    }
+    .respmenu input[type="checkbox"] {
+        display: none;
+    }
+}
+
+
 @media screen and (min-width: 600px) and (max-width: 1024px) {
     .imagenes{
         display: grid;
@@ -11,14 +22,15 @@
         justify-content: center;
     }
     
+    
     #cuerpo{
         padding-top: 110px;
     }
+
     
 }
 
 @media screen and (max-width: 600px) {
-    
     .encabezado{
         background-color: $bgColor ;
         position:relative;
@@ -31,6 +43,10 @@
         display: flex;
         width: 100px;
         height: 80px;
+    }
+
+    .encabezado__logo__titulo{
+        font-size: 40px;
     }
     
     .imagenes{
@@ -54,6 +70,9 @@
     }
     .articulos__video--Telecomunicaciones{
         padding: 1px 10px 5px 1px;
+        width: 70%;
+        display: flex;
+        flex-direction: column;
         justify-content: center;
         align-content: center;
         margin-left: 20px;
@@ -61,23 +80,11 @@
     
     .articulos__video--Camaras{
         padding: 1px 15px 5px 1px;
+        width: 70%;
         justify-content: center;
         align-content: center;
         margin-left: 20px;
     }
-    
-    .contacto{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        font-size: 1rem;
-    }
-
-    .ubicacion{
-        width: 80%; 
-
-    }
-
     #cuerpo{
         padding-top: 0px;
     } 
@@ -148,8 +155,113 @@
         margin-left: 15%;
     }
 
+        
+    .contacto{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        font-size: 1rem;
+        word-spacing: 1.8px;
+        line-height: 2rem; 
+        text-indent: 1.5rem;
+    }
+
+    .e-mail { 
+        font-size: 0.95rem;
+    }
+
+    .ubicacion{
+        width: 80%; 
+    }
+
+    .formulario{
+        font-size: 1rem;
+        word-spacing: 1.2px;
+        line-height: 2rem; 
+        margin: 15px;
+        padding: 15px 15px 15px 15px;
+    }
+    
+    .form-group{
+        margin: 2px;
+    }
+    
     .form-control{
-        width: 100%;
+        width: 290px;
+    }
+    .footer{
+        display: block;
+        margin: 20px 20px 10px 20px ;
+        background-color: $bgColor;
+        text-align: right;
+    
+    .footer__ul{
+        list-style: none;
+        padding-top: 18px;
+    
+        li{
+        list-style: none;
+        display: inline-block;
+        border: none;
+        background-color: $bgColor;
+        padding: 4px 8px 4px 8px;
+        font-size: map-get($font-size , tamaño2 );
+        font-weight: bold;
+    }
+    }
+    }
+
+    .respmenu a {
+        color:$biColor ;
+        display: flex;
+        padding: 10px 20px;
+        border-bottom: 2px solid $biColor;
+        max-width: 150px;
+        background: $bgColor;
+    }
+
+    .respmenu input[type="checkbox"], .respmenu .fa-bars, .respmenu .fa-times {
+        position: absolute;
+        margin: 5px;
+        padding: 5px;
+        right: 5px;
+        top: 5px;
+        left: 120px;
+        width: 48px;
+        height: 48px;
+    }
+
+    .respmenu .fa-bars, .respmenu .fa-times {
+        font-size: 48px;
+        pointer-events: none;
+    }
+    
+    .respmenu input[type="checkbox"] {
+        opacity: 0;
+    }
+    
+    .respmenu {
+        position: relative;
+        justify-content: right;
+    
+        min-height: 38px;
+    }
+    
+    .respmenu nav {
+        display: none;
+    }
+    
+    .respmenu input:checked ~ nav {
+        display: block;
+    }
+    
+    .respmenu input:checked ~ .fa-bars {
+        display: none;
+        
+    }
+    
+    .respmenu input:not(:checked) ~ .fa-times {
+        display: none;
     }
 
 }
