@@ -328,13 +328,13 @@ a:active {
     flex-direction: column;
     justify-content: center;
     align-content: center;
-    margin-left: 20px; }
+    margin-left: 75px; }
   .articulos__video--Camaras {
     padding: 1px 15px 5px 1px;
     width: 70%;
     justify-content: center;
     align-content: center;
-    margin-left: 20px; }
+    margin-left: 75px; }
   #cuerpo {
     padding-top: 0px; }
   .carousel-caption {
