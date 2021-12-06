@@ -308,7 +308,7 @@ a:active {
     width: 100px;
     height: 80px; }
   .encabezado__logo__titulo {
-    font-size: 40px; }
+    font-size: 30px; }
   .imagenes {
     display: flex;
     flex-direction: column;
@@ -398,20 +398,21 @@ a:active {
     font-size: 1rem;
     word-spacing: 1.2px;
     line-height: 2rem;
-    margin: 15px;
-    padding: 15px 15px 15px 15px; }
+    margin: 10px;
+    padding: 10px 10px 10px 10px; }
   .form-group {
     margin: 2px; }
   .form-control {
-    width: 290px; }
+    width: 90%; }
   .footer {
     display: block;
     margin: 20px 20px 10px 20px;
     background-color: #FFFFFF;
-    text-align: right; }
+    text-align: right;
+    padding-top: 10px; }
     .footer .footer__ul {
       list-style: none;
-      padding-top: 18px; }
+      padding-top: 20pxpx; }
       .footer .footer__ul li {
         list-style: none;
         display: inline-block;
@@ -423,6 +424,7 @@ a:active {
   .respmenu a {
     color: linear-gradient(to right, #0E2861, #1749a5, #2E55C9);
     display: flex;
+    font-size: 1.1rem;
     padding: 10px 20px;
     border-bottom: 2px solid linear-gradient(to right, #0E2861, #1749a5, #2E55C9);
     max-width: 150px;
@@ -432,10 +434,12 @@ a:active {
     margin: 5px;
     padding: 5px;
     right: 5px;
-    top: 10px;
-    left: 90px;
+    top: 5px;
+    left: 10px;
     width: 48px;
     height: 48px; }
+  .inicio {
+    padding-top: 50px; }
   .respmenu .fa-bars, .respmenu .fa-times {
     font-size: 48px;
     pointer-events: none; }
