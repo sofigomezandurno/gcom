@@ -46,7 +46,7 @@
     }
 
     .encabezado__logo__titulo{
-        font-size: 40px;
+        font-size: 30px;
     }
     
     .imagenes{
@@ -178,8 +178,8 @@
         font-size: 1rem;
         word-spacing: 1.2px;
         line-height: 2rem; 
-        margin: 15px;
-        padding: 15px 15px 15px 15px;
+        margin: 10px;
+        padding: 10px 10px 10px 10px;
     }
     
     .form-group{
@@ -187,17 +187,18 @@
     }
     
     .form-control{
-        width: 290px;
+        width: 90%;
     }
     .footer{
         display: block;
         margin: 20px 20px 10px 20px ;
         background-color: $bgColor;
         text-align: right;
+        padding-top: 10px;
     
     .footer__ul{
         list-style: none;
-        padding-top: 18px;
+        padding-top: 20pxpx;
     
         li{
         list-style: none;
@@ -214,6 +215,7 @@
     .respmenu a {
         color:$biColor ;
         display: flex;
+        font-size: 1.1rem;
         padding: 10px 20px;
         border-bottom: 2px solid $biColor;
         max-width: 150px;
@@ -226,42 +228,44 @@
         padding: 5px;
         right: 5px;
         top: 5px;
-        left: 120px;
+        left: 10px;
         width: 48px;
         height: 48px;
     }
 
+    .inicio{
+        padding-top: 50px;
+    }
     .respmenu .fa-bars, .respmenu .fa-times {
         font-size: 48px;
         pointer-events: none;
     }
-    
+
     .respmenu input[type="checkbox"] {
         opacity: 0;
     }
-    
+
     .respmenu {
         position: relative;
         justify-content: right;
-    
         min-height: 38px;
     }
-    
+
     .respmenu nav {
-        display: none;
-    }
-    
-    .respmenu input:checked ~ nav {
-        display: block;
-    }
-    
-    .respmenu input:checked ~ .fa-bars {
         display: none;
         
     }
-    
-    .respmenu input:not(:checked) ~ .fa-times {
-        display: none;
+
+    .respmenu input:checked ~ nav {
+        display: block;
     }
+
+    .respmenu input:checked ~ .fa-bars {
+        display: none;
+
+    }
+
+    .respmenu input:not(:checked) ~ .fa-times {
+        display: none;}
 
 }
