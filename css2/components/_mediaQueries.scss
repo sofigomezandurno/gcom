@@ -225,10 +225,15 @@
         margin: 5px;
         padding: 5px;
         right: 5px;
-        top: 8px;
-        left: 100px;
+        top: 10px;
+        left: 90px;
         width: 48px;
         height: 48px;
+    }
+
+    .respmenu input[type="checkbox"], .respmenu .fa-times {
+        top: 5px;
+        left: 100px;
     }
 
     .respmenu .fa-bars, .respmenu .fa-times {
@@ -262,6 +267,7 @@
     
     .respmenu input:not(:checked) ~ .fa-times {
         display: none;
+        
     }
 
 }
